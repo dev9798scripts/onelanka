@@ -31,7 +31,7 @@ export default {
       let uri = "auth/signin";
       // console.log(this.overlay)
       axios
-        .post("http://indesk.gq/auth/signin", cradentials)
+        .post("https://indesk.gq/auth/signin", cradentials)
         .then(response => {
           console.log("Logged in");
             // console.log(response.data.token);
@@ -73,7 +73,7 @@ export default {
         } else {
           return;
         }
-        axios.get("http://indesk.gq/auth/signme").then(function(response) {
+        axios.get("https://indesk.gq/auth/signme").then(function(response) {
           //console.log.log("login");
           //console.log.log(response.data);
 
@@ -91,7 +91,7 @@ export default {
     },
 
     signOut({ commit }) {
-      axios.post("http://indesk.gq/auth/signout").then(function(response) {
+      axios.post("https://indesk.gq/auth/signout").then(function(response) {
         //console.log.log("logged out");
         //console.log.log(response.data);
         commit("SET_TOKEN", null);

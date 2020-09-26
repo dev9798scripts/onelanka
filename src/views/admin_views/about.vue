@@ -90,7 +90,7 @@
 
                   <!-- <v-expansion-panel-content>
                     <img src="../../assets/welcome.jpg" class="welcome_image" alt /> -->
-                    <v-img :src="'http://indesk.gq/public/storage/' + this.getAbout[0].display[0].CompanyImage"
+                    <v-img :src="'https://indesk.gq/public/storage/' + this.getAbout[0].display[0].CompanyImage"
                       class="welcome_image"
                       alt></v-img>
                    

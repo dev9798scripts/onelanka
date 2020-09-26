@@ -29,7 +29,7 @@
             v-if="Activate[0].About_Activate_About_Image === 'true'"
           >
             <v-img
-              :src="'http://indesk.gq/public/storage/' + getItem[0].CompanyImage"
+              :src="'https://indesk.gq/public/storage/' + getItem[0].CompanyImage"
               class="welcome_image"
               alt
             ></v-img>

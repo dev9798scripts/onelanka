@@ -110,7 +110,7 @@
 
                 <v-expansion-panel-content>
                   <!-- <img
-                    :src="'http://indesk.gq/public/storage/' + this.getWelcome[0].display[0].Image"
+                    :src="'https://indesk.gq/public/storage/' + this.getWelcome[0].display[0].Image"
                     class="welcome_image"
                     alt
                   /> -->
@@ -119,7 +119,7 @@
 
                   <v-img
                    v-if="getWelcome.length != 0"
-                    :src="'http://indesk.gq/public/storage/' + this.getWelcome[0].display[0].Image"
+                    :src="'https://indesk.gq/public/storage/' + this.getWelcome[0].display[0].Image"
                     class="welcome_image"
                     alt></v-img>
 

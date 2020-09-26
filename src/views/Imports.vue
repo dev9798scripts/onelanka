@@ -67,7 +67,7 @@
                   <v-card class="mx-auto" max-width="344">
                     <v-img
                       :src="
-                        'http://indesk.gq/public/storage/' + items.Image.img
+                        'https://indesk.gq/public/storage/' + items.Image.img
                       "
                       height="200px"
                     ></v-img>
@@ -117,7 +117,7 @@
                             <v-img
                               v-if="(this.selectedImage == 'none')"
                               :src="
-                                'http://indesk.gq/public/storage/' +
+                                'https://indesk.gq/public/storage/' +
                                   getEditItem[0].image[0].img
                               "
                               class="SingleImageSize"
@@ -126,7 +126,7 @@
                             <v-img
                               v-else
                               :src="
-                                'http://indesk.gq/public/storage/' +
+                                'https://indesk.gq/public/storage/' +
                                   this.selectedImage
                               "
                               class="SingleImageSize"
@@ -142,7 +142,7 @@
                                 >
                                   <v-img
                                     :src="
-                                      'http://indesk.gq/public/storage/' +
+                                      'https://indesk.gq/public/storage/' +
                                         items.img
                                     "
                                     class="SingleImageSizeCollection btn"

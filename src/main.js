@@ -15,7 +15,7 @@ import axios from 'axios'
 const base = axios.create({
   // baseURL: 'https://importexporttraders.herokuapp.com/'
   // baseURL: 'http://localhost:8000/'
-  baseURL: 'http://indesk.gq/'
+  baseURL: 'https://indesk.gq/'
 })
 
 Vue.prototype.$http = base

@@ -9,7 +9,7 @@
         <b-navbar-brand v-if="getItem.length != 0">
           <!-- <img src="../assets/devi_trading_logo.png" class="logo_image" alt /> -->
           <v-img
-            :src="'http://indesk.gq/public/storage/' + getItem[0].companyLogo"
+            :src="'https://indesk.gq/public/storage/' + getItem[0].companyLogo"
             class="logo_image"
             alt
           ></v-img>
